@@ -55,6 +55,7 @@
 #### - Clone the repo by running following command inside a folder of your choice:
 ##### git clone https://github.com/kontacthimanshu/ust-functionsonaks
 #### - Update storage connection strings in the local.settings.json file inside folder "azstoragetriggerdemo"
+#### - Update storage connection strings for keys named "AzureWebJobsStorage" and "storageconstr".
 #### - On the command prompt or PowerShell be within folder "azstoragetriggerdemo" and run following command
 ##### func kubernetes deploy --name azstoragetriggerdemo --registry ustdemoacr.azurecr.io
 #### - Upload few files to the blob container
