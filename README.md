@@ -18,7 +18,14 @@
 ## 9) Hit the following URL:
 # ---------------------------------------------------------------------------
 #### - Launch a Windows PowerShell Window
-#### - Run below command:
+#### - Run the command below to login to Azure:
+##### az login
+#### - Key in the credentials and come back to PowerShell window post login.
+#### - Run the following command to create a resource group:
+##### az group create -l eastus -n ustdemo
+#### - Run following command to create a Azure storage account:
+#### az storage account create -n ustfuncdemostorage -g ustdemo -l eastus --sku Standard_LRS
+#### - Run the following command to create ACR instance:
 ##### az acr create -n ustdemoacr -g ustdemo -l eastus --sku standard
 #### - Verify that Container Registry has been created by using command below:
 ##### az acr list -o table
