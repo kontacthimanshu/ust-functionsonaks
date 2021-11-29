@@ -1,8 +1,8 @@
 # Pre-requisites
-### An Azure Subscription with contributor permissions
-### Azure CLI or Azure PowerShell
-### Azure Functions Core Tools
-### Docker Desktop latest community edition running on the laptop
+### - An Azure Subscription with contributor permissions
+### - Azure CLI or Azure PowerShell
+### - Azure Functions Core Tools
+### - Docker Desktop latest community edition running on the laptop
 # ---------------------------------------------------------------------------
 
 # High Level Steps
@@ -36,6 +36,14 @@
 ##### kubectl config get-contexts
 #### - set current context to the Azure context
 ##### kubectl config use-context ustdemoakscluster
+#### - Install KEDA in the AKS cluster
+#### - Add KEDA repo to your Helm repo with following command:
+##### helm repo add kedacore https://kedacore.github.io/charts
+##### helm repo update
+#### - Create namespace in AKS cluster for KEDA components/resources
+##### kubectl create namespace keda
+##### helm install keda kedacore/keda --namespace keda
+
 
 
 
