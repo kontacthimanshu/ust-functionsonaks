@@ -61,7 +61,7 @@
 #### - Upload few files to the blob container
 #### - Run following commands to check the logs of the POD running your function
 ##### kubectl get pods
-#### - Note the POD ID
+#### - Note the POD ID from the output of previous command
 ##### kubectl logs "POD ID noted from previous step"
 #### - You should see messages like "C# Blob trigger function Processed blob name <file name you uploaded>"
   
