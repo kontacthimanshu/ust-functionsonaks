@@ -7,13 +7,15 @@
 
 # High Level Steps
 # ---------------------------------------------------------------------------
-## 1) Create Azure Container Registry instance
-## 2) Create Service Principal 
-## 3) Create Azure Kubernetes Services instance
-## 4) Install KEDA in the AKS cluster
-## 5) Clone the repo
-## 6) Run command --- to install function app
-## 7) Hit the following URL:
+## 1) Create an Azure resource group
+## 2) Create a Azure Storage Account
+## 3) Create Azure Container Registry instance
+## 4) Create Service Principal 
+## 5) Create Azure Kubernetes Services instance
+## 6) Install KEDA in the AKS cluster
+## 7) Clone the repo
+## 8) Run command --- to install function app
+## 9) Hit the following URL:
 # ---------------------------------------------------------------------------
 #### - Launch a Windows PowerShell Window
 #### - Run below command:
