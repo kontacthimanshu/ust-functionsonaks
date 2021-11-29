@@ -14,8 +14,8 @@
 ## 5) Create Azure Kubernetes Services instance
 ## 6) Install KEDA in the AKS cluster
 ## 7) Clone the repo
-## 8) Run command --- to install function app
-## 9) Hit the following URL:
+## 8) Run func command to install function app
+## 9) Upload few files to blob container to see if the files are being picked up and function is being triggered
 # -----------------------------------------------------------------
 #### - Launch a Windows PowerShell Window
 #### - Run the command below to login to Azure:
