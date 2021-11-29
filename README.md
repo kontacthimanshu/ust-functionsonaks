@@ -3,10 +3,10 @@
 ### - Azure CLI or Azure PowerShell
 ### - Azure Functions Core Tools
 ### - Docker Desktop latest community edition running on the laptop
-# -----------------------------------------------------------------
+# ----------------------------------------------------------------
 
 # High Level Steps
-# -----------------------------------------------------------------
+# ----------------------------------------------------------------
 ## 1) Create an Azure resource group
 ## 2) Create a Azure Storage Account
 ## 3) Create Azure Container Registry instance
@@ -16,7 +16,7 @@
 ## 7) Clone the repo
 ## 8) Run func command to install function app
 ## 9) Upload few files to blob container to see if the files are being picked up and function is being triggered
-# -----------------------------------------------------------------
+# ----------------------------------------------------------------
 #### - Launch a Windows PowerShell Window
 #### - Run the command below to login to Azure:
 ##### az login
